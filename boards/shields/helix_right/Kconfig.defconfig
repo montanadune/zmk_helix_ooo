@@ -1,0 +1,9 @@
+if SHIELD_HELIX_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "Helix Right"
+
+config ZMK_STUDIO
+    default y
+
+endif
