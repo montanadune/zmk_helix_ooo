@@ -53,7 +53,7 @@
                   &kp F         &kp A        &kp K         &kp R           &kp P      &kp JP_HANZEN
                   &kp E         &kp I        &kp S         &kp T           &kp D      &kp BSPC
 &kp SPACE         &kp O         &kp U        &kp N         &kp H           &kp Y      &sk LSHIFT
-&kp RET           &mo 1         &mo 2        &mo 3         &mo 4           &kp LALT   &kp LCTRL
+&kp RET           &mo 1         &mo 2        &mo 3         &mo 4           &kp LALT   &sk LCTRL
             >;
         };
 
