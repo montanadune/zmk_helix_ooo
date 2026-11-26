@@ -1,2 +1,0 @@
-config SHIELD_HELIX_RIGHT
-    def_bool $(shields_list_contains,helix_right)
