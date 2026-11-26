@@ -1,20 +1,10 @@
 manifest:
   remotes:
-    - name: cormoran
-      url-base: https://github.com/cormoran
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: cormoran
-      revision: v0.3-branch+dya
+      remote: zmkfirmware
+      revision: v0.3 # build.yml と同じタグにする
       import: app/west.yml
-    - name: zmk-module-ble-management
-      remote: cormoran
-      revision: main
-    - name: zmk-module-battery-history
-      remote: cormoran
-      revision: main
-    - name: zmk-module-settings-rpc
-      remote: cormoran
-      revision: main
-  self:
-    path: config
+
