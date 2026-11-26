@@ -1,11 +1,7 @@
 manifest:
-  defaults:
-    revision: v0.3
   remotes:
-    - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
     - name: cormoran
-      url-base: https://github.com
+      url-base: https://github.com/cormoran
   projects:
     - name: zmk
       remote: cormoran
