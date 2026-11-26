@@ -1,4 +1,4 @@
-if SHIELD_HELIX_RIGHT
+if SHIELD_HELIX_RIGHT_SOLO
 
 config ZMK_KEYBOARD_NAME
     default "Helix Right"
