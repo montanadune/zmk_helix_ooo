@@ -1,0 +1,4 @@
+name: zmk-keyboard-froggy
+build:
+  settings:
+    board_root: .
