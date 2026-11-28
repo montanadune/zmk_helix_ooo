@@ -1,12 +1,14 @@
 manifest:
+  remotes:
+    - name: cormoran
+      url-base: https://github.com
   projects:
     - name: zmk
-      url: https://github.com
+      remote: cormoran
       revision: v0.3-branch+dya
       import: app/west.yml
     - name: zmk-module-ble-management
-      url: https://github.com
+      remote: cormoran
       revision: zmk-v0.3.0.0
   self:
     path: config
-
