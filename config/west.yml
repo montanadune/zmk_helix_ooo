@@ -1,13 +1,13 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
+      url-base: https://github.com
     - name: cormoran
-      url-base: https://github.com/cormoran
+      url-base: https://github.com
   projects:
     - name: zmk
       remote: cormoran
-      revision: v0.3-branch+dya
+      revision: main+dya
       import: app/west.yml
     - name: zmk-module-ble-management
       remote: cormoran
